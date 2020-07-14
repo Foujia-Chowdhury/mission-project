@@ -1,0 +1,239 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width:320px) and (max-width: 375px) {
+     
+}
+@media (min-width:376px ) and (max-width: 575.98px) {
+
+}
+
+    
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width:576px) and (max-width: 767.98px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /*head section*/
+    .carousel-control-next, .carousel-control-prev {
+    margin-top: 28%;
+    height:0% !important;
+}
+    .carousel-caption{
+    bottom:2% !important;
+}
+    .carousel-caption h2 {
+    font-size: 39px !important;
+    line-height: 1 !important;
+}
+    .carousel-caption p{
+    font-size: 11px;
+    padding: 19px 0;
+    line-height: 23px;
+}
+    .content-2 p{
+    font-size: 11px !important;
+    line-height: 20px;
+    padding: 10px 0;
+    margin: 0;
+}
+    .content-2 img{
+    width:100%;
+    margin-top:17%;
+}
+    .btn {
+    font-size: 13px;
+    height: 51px;
+    width: 158px;
+    margin: 0 13px;
+}
+    .banner-btn{
+        margin-bottom: 30px;
+        margin-top:0 !important;
+    }
+    /*loading-part*/
+    .back-img{
+        height: 326px;
+    }
+    .loading-part{
+        padding-top: 14% !important;
+    }
+    .loading-part img{
+        width: 125px !important;
+    }
+    /*icon-part*/
+    #back-image{
+    padding: 55px 0px !important;
+}
+    .icon-part span {
+    width: 32px;
+    margin: 3px 40% !important;
+}
+    /*card-section*/
+    .card-body h5{
+    font-size: 11px;
+}
+.card-body h6{
+    font-size:9px;
+}
+.card-body p{
+	font-size: 11px;
+	line-height: 25px;
+	padding:0px;
+}
+.card-body button{
+	font-size: 11px;
+	margin:0 !important;
+}
+    .card-date p{
+    width: 50%!important;
+    font-size: 11px;
+    height: 25px;
+    padding-left: 11px;
+    padding-top: 2px;
+   }
+     /*flat-image*/
+     #pf-part .h{
+     	font-size: 31px !important;
+     }
+     .flat-image img{
+     	width:100%;
+     	height: auto !important;
+     	padding-right: 10px;
+     }
+    /*form-part*/
+    .form-control2 {
+    padding-bottom: 80px !important;
+    padding-left: 16px !important;
+}
+.address{
+	padding-bottom:19px !important;
+}
+    
+	/*footer-part*/
+  .footer-bg{
+    background-image: url(../images/footer-bg-image.png);
+	background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 60px 0;
+    width: 100%;
+}
+.footer-bg::before{
+	content:"";
+	position: absolute;
+	top:0;
+	left:0;
+	background: #000;
+	height: 100%;
+	width:100%;
+	opacity: .8;
+}
+  #footer .footer-item2 h6 {
+    font-size: 12px !important;
+    padding-bottom: 7px !important;
+}
+.footer-item {
+    padding-top: 2%;
+    align-items: center;
+}
+.footer-item p{
+	font-size: 13px;
+	padding: 15px 0;
+	line-height: 20px;
+}
+.footer-item img{
+	width: 80%;
+}
+.footer-item1 ul li a {
+    font-size: 12px !important;
+    color: #999999;
+    height: 28px !important;
+    display: block;
+    width: 28px !important;
+    padding: 0 7px !important;
+    line-height: 28px !important;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.footer-item1 ul li a{
+	font-size: 14px;
+	color: #999999;
+	height:32px;
+	display:block;
+	width: 32px;
+	padding:0 7px;
+	line-height: 32px;
+	border-radius:50%;
+	border: 1px solid transparent;
+}
+.footer-item1 ul li a:hover{
+	border: 1px solid #999;
+	color: #ffffff;
+	background: #ff6633;
+	border-radius:50%;
+	transition: .3s all ease-in-out;
+}
+.footer-item1 ul li:first-child a{
+    margin-left:0 !important;
+    padding:0 11px;
+	display:block;
+}
+.footer-item1 ul li:first-child a:hover{
+	background: #fff;
+	border: 1px solid #ff6633;
+	color: #ff6633;
+	transition: .3s all ease-in-out;
+}
+.footer-item2{
+	padding-top: 3%;
+}
+#footer .footer-item2 h6{
+	font-size: 17px;
+	font-weight: 500;
+	color: #ffffff;
+	padding-bottom: 20px;
+
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0rem;
+}
+.footer-item2 ul{
+	padding:0;
+}
+.footer-item2 ul li a{
+	font-size: 13px;
+	color: #999999;
+	line-height: 25px;
+	text-decoration: none;
+}
+.footer-item2 ul li a:hover{
+	color: #ff6633;
+	transition: .3s all ease-in-out;
+}
+.footer-img img {
+    width: auto;
+    height: 61px !important;
+}
+.ending p{
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 20px;
+	color: #fff;
+	margin:0;
+	padding:0;
+
+}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+   
